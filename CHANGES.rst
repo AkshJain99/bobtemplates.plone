@@ -4,6 +4,9 @@ Changelog
 3.5.1 (unreleased)
 ------------------
 
+- Use `pkg_util` for namespace declaration instead of deprecated `pkg_resources`.
+  [jensens]
+
 - Refactor and fix docs
 - Fix updating of parent FTI file, when parent type name contains spaces, fixes #331
   [MrTango]
